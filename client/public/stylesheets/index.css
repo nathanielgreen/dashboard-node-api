@@ -1,0 +1,72 @@
+html {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+span {
+  font-weight: 600;
+}
+
+.wrapper {
+  height: 100%;
+  margin: 0 auto;
+  width: 100%:
+}
+
+.data-box {
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+  .data-box p {
+    font-size: 16px;
+  }
+
+.icon {
+  height: 100px;
+  width: 100px;
+}
+
+#navbar {
+  background: #e5e5e5;
+  height: 70px;
+  margin: 0 auto;
+  padding: 5px;
+}
+  #navbar h2 {
+    color: #111;
+    margin-left: 20px;
+  }
+
+#top-data {
+  display: flex;
+  height: 50%;
+}
+  #site-visitors {
+  }
+  #plant-water {
+  }
+  #drinks-count {
+  }
+
+#bottom-data {
+  display: flex;
+  height: 50%;
+}
+  #bottom-data h3 {
+    padding: 40px;
+  }

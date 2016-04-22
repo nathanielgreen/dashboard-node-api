@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+
+  <title>GoSquared Dashboard</title>
+
+  <!-- Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+</head>
+
+<body>
+  <div id="navbar">
+    <h2> GoSquared Office Dashboard </h2>
+  </div>
+  <div class="wrapper">
+
+    <div id="top-data">
+      <div id="site-visitors" class="data-box">
+        <h3> Current Site Visitors </h3>
+        <img class="icon" src="images/users.png">
+        <p>Total number of concurrent visitors online across all 
+        GoSquared sites: <span id="data-visitors"></span> </p>
+      </div>
+      <div id="plant-water" class="data-box">
+        <h3> Next Plant Watering </h3>
+        <img class="icon" src="images/plant.png">
+        <p>Next time to Water Plants: <span id="data-plant"><span></p>
+      </div>
+      <div id="drinks-count" class="data-box">
+        <h3> Fridge Drinks Count </h3>
+        <img class="icon" src="images/drink.png">
+        <p>Amount of Drinks in Fridge: <span id="data-drinks"></span> left</p>
+        <button id="increase-drinks-count">Increase</button>
+        <button id="decrease-drinks-count">Decrease</button>
+      </div>
+    </div>
+    
+    <div id="bottom-data">
+      <div id="office-temp" class="data-box">
+        <h3> Office Temperature </h3>
+        <img class="icon" src="images/thermostat1.png">
+        <p>Inside Office Temperature: <span id="data-office-temp"></span>  °C</p>
+        <button id="increase-office-temp">Increase</button>
+        <button id="decrease-office-temp">Decrease</button>
+      </div>
+      <div id="outside-temp" class="data-box">
+        <h3> Outside Temperature </h3>
+        <img class="icon" src="images/thermostat2.png">
+        <p>Outside Weather Temperature: <span id="data-outside-temp"></span> °C</p>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="scripts/index.js"></script>
+</body>
+<html>
+

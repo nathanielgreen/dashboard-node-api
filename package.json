@@ -1,0 +1,17 @@
+{
+  "name": "node-api-techtest",
+  "version": "0.0.0",
+  "description": "Dashboard for GoSquared Office",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "~4.13.4",
+    "pg": "~4.5.3",
+    "pg-promise": "~3.9.0",
+    "body-parser": "~1.15.0"
+  }
+}
